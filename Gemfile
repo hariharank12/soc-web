@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'haml', '~> 3.1.8'
+gem 'koala'
+gem 'shotgun'
+gem 'json', '~> 1.7.7'
+gem 'monk', '0.0.7'
+#gem 'sequel'
+gem 'data_mapper'
