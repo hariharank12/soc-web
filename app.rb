@@ -6,6 +6,8 @@ require_relative 'minify_resources'
 class MyApp < Sinatra::Application
 	enable :sessions
 
+	use Rack::Session::Cookie, secret: 'hare!yoursecret'
+
 	configure :production do
 		set :haml, { :ugly=>true }
 		set :clean_trace, true
