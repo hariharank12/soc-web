@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'sinatra'
+gem 'sinatra-contrib'
 gem 'haml', '~> 3.1.8'
 gem 'koala'
 gem 'shotgun'
@@ -9,3 +10,4 @@ gem 'monk', '0.0.7'
 #gem 'sequel'
 gem 'data_mapper'
 gem 'thin'
+gem 'oauth'

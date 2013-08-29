@@ -1,6 +1,9 @@
 # encoding: utf-8
 require_relative 'partials'
-MyApp.helpers PartialPartials
+helpers PartialPartials
 
 require_relative 'nicebytes'
-MyApp.helpers NiceBytes
+helpers NiceBytes
+
+require_relative 'soc_network_cred'
+helpers SocNetworkCred

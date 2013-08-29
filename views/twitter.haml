@@ -1,0 +1,10 @@
+%p 
+  %b Your twitter timeline are
+%table
+  %tbody
+    - @twitter_timeline.each do |tweet|
+      %tr
+        %td
+          =tweet["text"]
+          %br
+          ="-------------------------"

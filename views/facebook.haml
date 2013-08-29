@@ -1,0 +1,11 @@
+%p 
+  %b Your facebook messages are
+%table
+  %tbody
+    - @news_feeds.each do |news_feed|
+      %tr
+        %td
+          =news_feed["message"]
+          %br
+          ="-------------------------"
+%br
